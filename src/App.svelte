@@ -54,30 +54,30 @@
 </main>
 
 <style>
-	main {
-		color: #333;
-		max-width: 300px;
-		margin: 0 auto;
-	}
+  main {
+    color: #333;
+    max-width: 300px;
+    margin: 0 auto;
+  }
   ul {
     padding-left: 0;
   }
   li {
-		position: relative;
-		list-style: none;
-		padding: 6px 10px;
-		border-bottom: 1px solid #ddd;
-		line-height: 2.5em;
-	}
-	li input[type=checkbox] {
-		margin: 0 10px 0 0;
-	}
-	li button {
-		position: absolute;
-		top: 50%;
-		right: 0;
-		transform: translate3d(0, -50%, 0);
-	}
+    position: relative;
+    list-style: none;
+    padding: 6px 10px;
+    border-bottom: 1px solid #ddd;
+    line-height: 2.5em;
+  }
+  li input[type=checkbox] {
+    margin: 0 10px 0 0;
+  }
+  li button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate3d(0, -50%, 0);
+  }
   .completed {
     text-decoration: line-through;
   }
